@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import  Button  from 'react-bootstrap/Button';
+import Navbar from './components/Navbar';
+import Informacion from './components/Informacion';
+import Cotizador from './components/Cotizador';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Proyecto Bootstrap</h1>
-      <Button variant="primary">Haz clik aqui</Button>
+    <div className="">
+      <div className="container">
+        <Navbar/> 
+        <Informacion/> 
+        <Cotizador/>  
+      </div>
     </div>
   );
 }
